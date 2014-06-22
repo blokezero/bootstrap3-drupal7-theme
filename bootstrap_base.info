@@ -1,0 +1,24 @@
+name = Boostrap Theme
+description = Bootstrap 3 base theme
+
+core = 7.x
+
+stylesheets[all][] = assets/css/bootstrap_base.css
+
+scripts[] = assets/js/bootstrap/carousel.js
+scripts[] = assets/js/bootstrap/collapse.js
+scripts[] = assets/js/bootstrap/dropdown.js
+scripts[] = assets/js/bootstrap/modal.js
+scripts[] = assets/js/bootstrap/tooltip.js
+scripts[] = assets/js/bootstrap/popover.js
+scripts[] = assets/js/bootstrap/tab.js
+scripts[] = assets/js/bootstrap/transition.js
+
+scripts[] = assets/js/bootstrap_base.js
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_right] = Right sidebar
+regions[footer] = Footer
