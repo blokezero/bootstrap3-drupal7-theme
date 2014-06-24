@@ -8,8 +8,6 @@
           yuicompress: false,
           optimization: 2,
           sourceMap: true,
-          sourceMapFilename: "assets/css/bootstrap_base.css.map",
-          sourceMapBasepath: "assets/css/"
         },
         files: {
           "assets/css/bootstrap_base.css": "assets/less/bootstrap_base.less"
