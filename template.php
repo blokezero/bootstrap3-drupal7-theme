@@ -46,7 +46,7 @@ function bootstrap_base_process_html(&$vars) {
  * Implements theme_prepocess_page().
  */
 function bootstrap_base_preprocess_page(&$vars) {
-  // Count sidebars
+  // Count sidebars.
   $count = 0;
   foreach ($vars['page'] as $key => $value) {
     if (substr($key, 0, 7) == "sidebar" && !empty($value)) {
